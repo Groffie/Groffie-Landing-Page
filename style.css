@@ -653,3 +653,13 @@ header label{
     }
 
 }
+
+.transition{
+    animation-delay: 0.8s;
+    transition: ease-in;
+}
+
+.features1{
+    padding: 0px;
+    padding-top: 50px;
+}
