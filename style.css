@@ -157,7 +157,7 @@ header label{
 }
 
 .features .box-container .box{
-    flex:1 1 ;
+    width: 300px;
     background:#fff;
     border-radius: .5rem;
     border:.1rem solid rgba(0,0,0,.2);
@@ -301,7 +301,9 @@ header label{
     position: relative;
     border:.1rem solid rgba(0,0,0,.2);
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    flex:1 1 ;
+    /* flex:1 1 ; */
+    width: 300px;
+    height: 380px;
     border-radius: .5rem;
 }
 
@@ -326,7 +328,7 @@ header label{
     font-size: 2rem;
 }
 .box p{
-    text-align: justify;
+    text-align: center;
 }
 .review .box-container .box .user .stars i{
     color:var(--purple);
@@ -334,7 +336,7 @@ header label{
     padding:1rem 0;
 }
 .comment{
-    text-align: justify;
+    text-align: center;
 }
 .review .box-container .box .comment{
     color:#666;
